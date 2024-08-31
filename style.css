@@ -1,4 +1,49 @@
 p {
     border: inherit;
   }
-  
+.container{
+  width: 600px;
+  display: flex;
+  /* padding: 10px; */
+  height: 300px;
+  margin: 20px auto;
+}
+.b-50{
+  width: 50%;
+  background-color: green;
+}
+.b-40{
+  width: 50%;
+  background-color: tomato;
+  color: red;
+}
+h3::first-letter{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+h3::first-line{
+  color: greenyellow;
+}
+h3::selection{
+  background-color: purple;
+}
+button{
+  font-size: 20px;
+  padding: 10px 25px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(215, 245, 250);
+  color: black;
+  font-weight: bolder;
+}
+
+img:hover{
+  animation-name:move ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
